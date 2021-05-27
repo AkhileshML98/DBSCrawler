@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SpiderLeg
+public class CrawlerPageSearch
 {
     
     private static final String USER_AGENT =

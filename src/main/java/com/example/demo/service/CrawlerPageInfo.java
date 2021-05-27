@@ -19,9 +19,9 @@ public class CrawlerPageInfo {
 	private int cont = 0;
 	public List<String> urlList = new ArrayList<String>();
  	@Autowired
-	SpiderLeg leg;
+ 	CrawlerPageSearch leg;
 
-	public CrawlerPageInfo(SpiderLeg leg) {
+	public CrawlerPageInfo(CrawlerPageSearch leg) {
 		super();
 		this.leg = leg;
 	}

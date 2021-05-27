@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.UrlAndWord;
 import com.example.demo.service.CrawlerPageInfo;
-import com.example.demo.service.SpiderLeg;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
