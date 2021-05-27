@@ -59,7 +59,13 @@ public class CrawlerPageInfo {
 			this.pagesToVisit.addAll(leg.getLinks());
 		}		
 		urlList.stream().forEach(s -> System.out.println(s));
-		return urlList;
-	}
+		if (!urlList.isEmpty())
+			return urlList;
+		else {
+			urlList.add("NO Match Found");
+			return urlList;
+		}
+					
 
+	}
 }

@@ -29,7 +29,7 @@ public class CrawlerController {
 	 @PostMapping("/crowler")
 	    public  List<String> searchWord(@RequestBody UrlAndWord UrlAndWord ) {
 		 
-		 List<String> urlList=crawlerPageInfo.search("http://arstechnica.com/", "cars");	      
+		 List<String> urlList=crawlerPageInfo.search(UrlAndWord.getUrl(), UrlAndWord.getSearchString());	      
 	     return  urlList;
 	    }
 	
